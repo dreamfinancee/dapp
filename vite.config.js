@@ -7,7 +7,8 @@ export default defineConfig({
   build: {
     rollupOptions: {
       input: 'index.html',
-      external: ['styles.css']
+      external: ['styles.css'],
+      external: ['@trezor/env-utils']
     }
   },
   define: {
