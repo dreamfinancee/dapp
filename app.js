@@ -2,7 +2,7 @@ import { Connection, PublicKey, clusterApiUrl, LAMPORTS_PER_SOL } from '@solana/
 import { PhantomWalletAdapter } from '@solana/wallet-adapter-wallets';
 import defineProperty from '@babel/runtime/helpers/defineProperty';
 import nacl from 'tweetnacl';
-import { Buffer } from 'buffer';
+import { Buffer } from 'buffer'; // Importar el polyfill para Buffer
 import BN from 'bn.js';
 import bs58 from 'bs58';
 import { struct } from 'superstruct';
