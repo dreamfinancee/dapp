@@ -1,0 +1,23 @@
+{
+  "name": "solana-web3-app",
+  "version": "1.0.0",
+  "scripts": {
+    "start": "vite"
+  },
+  "dependencies": {
+    "@babel/runtime": "^7.20.0",
+    "@solana/web3.js": "^1.30.0",
+    "@solana/wallet-adapter-wallets": "latest",
+    "bn.js": "^5.2.0",
+    "bs58": "^5.0.0",
+    "buffer": "^6.0.3",
+    "jayson": "^4.1.2",
+    "rpc-websockets": "latest",
+    "superstruct": "latest",
+    "tweetnacl": "^1.0.3",
+    "dotenv": "^10.0.0"
+  },
+  "devDependencies": {
+    "vite": "^2.9.0"
+  }
+}
